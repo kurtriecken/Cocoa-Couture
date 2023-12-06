@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-image: url('./assets/chocolate.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* transform: rotate(90deg); */
+}
+
+.door-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.door {
+  width: 45vw;
+  height: 100vh;
+  background-color: #4d3319;
+  transition: transform 1.5s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.door.left {
+  border-right: 2px solid #fff;
+  transform-origin: left center; /* Change to right center for the right door */
+
+}
+
+.door.right {
+  border-left: 2px solid #fff;
+  transform-origin: right center; /* Change to right center for the right door */
+
+}
+
+.door:hover {
+  background-color: #633d1e;
+}
+
+.knob {
+  width: 20px;
+  height: 20px;
+  background-color: #e1ba84; /* Gold color for the knob */
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#knob_1 {
+  right: 10px;
+}
+
+#knob_2 {
+  left: 10px;
+}
