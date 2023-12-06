@@ -16,9 +16,9 @@ body {
 }
 
 .door {
-  width: 45vw;
+  width: 49vw;
   height: 100vh;
-  background-color: #4d3319;
+  background-color: #DAA520;
   transition: transform 1.5s ease-in-out;
   cursor: pointer;
   position: relative;
@@ -38,13 +38,13 @@ body {
 }
 
 .door:hover {
-  background-color: #633d1e;
+  background-color: #B8860B;
 }
 
 .knob {
   width: 20px;
   height: 20px;
-  background-color: #e1ba84; /* Gold color for the knob */
+  background-color:  #36454F; /* Gold color for the knob */
   border-radius: 50%;
   position: absolute;
   top: 50%;

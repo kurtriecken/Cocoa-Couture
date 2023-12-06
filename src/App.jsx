@@ -12,7 +12,7 @@ function App() {
   }
 
   return (
-    <>
+    <div>
       <Modal />
       <div className="door-container">
         <div className="door left" onClick={() => { openDoor() }}>
@@ -24,7 +24,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
